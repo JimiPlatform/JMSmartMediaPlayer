@@ -1,0 +1,6 @@
+framework module JMSmartMediaPlayer {
+  umbrella header "JMSmartMediaPlayer.h"
+
+  export *
+  module * { export * }
+}
