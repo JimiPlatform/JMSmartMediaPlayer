@@ -36,7 +36,7 @@ singleton_h();
 /// 实时视频对讲状态
 /// @param status 对讲状态
 /// @param error 错误提示
-- (void)didJMMediaNetworkTalkerWithStatus:(JM_MEDIA_TALK_STATUS)status error:(JMError *)error;
+- (void)didJMMediaNetworkTalkerWithStatus:(enum JM_MEDIA_TALK_STATUS)status error:(JMError *)error;
 
 @end
 

@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,weak) id<JMMediaNetworkPlayerDelegate> _Nullable delegate;
 @property (nonatomic,assign) BOOL mute;                 //静音设置
+@property (nonatomic,assign) BOOL sniffStreamEnable;    //是否完整探测流信息
 
 /// 加载显示视图
 /// @param monitor JMMonitor
