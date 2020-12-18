@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIImage.h>
 #import <JMMonitorView/JMMonitor.h>
-#import <JMSmartUtils/JMError.h>
+#import "JMError.h"
 #import "JMMediaPlayerEnum.h"
 #import "JMMediaPlayInfo.h"
 

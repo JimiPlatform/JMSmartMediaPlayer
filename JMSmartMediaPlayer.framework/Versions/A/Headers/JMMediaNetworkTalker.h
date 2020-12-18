@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <JMSmartUtils/JMSingleton.h>
-#import <JMSmartUtils/JMError.h>
+#import "JMSingleton.h"
+#import "JMError.h"
 #import "JMMediaPlayerEnum.h"
 
 NS_ASSUME_NONNULL_BEGIN
