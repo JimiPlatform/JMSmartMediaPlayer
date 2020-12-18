@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_framework   = 'JMSmartMediaPlayer.framework'
   s.vendored_libraries = 'JMSmartMediaPlayer.framework/**/*.a'
   s.dependency 'JMMonitorView', '~> 1.0.8'
-  s.dependency 'JMSmartUtils', '~> 1.2.0'
 
 end
 
