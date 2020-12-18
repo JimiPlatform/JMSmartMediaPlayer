@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "JMSmartMediaPlayer"
-  s.version = "1.1.4"
+  s.version = "1.1.5"
   s.summary = "Jimi meida Player SDK for iOS at CocoaPods."
   s.license = {"type"=>"Apache License 2.0", "file"=>"LICENSE"}
   s.authors = {"Eafy"=>"lizhijian_21@163.com"}
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_framework   = 'JMSmartMediaPlayer.framework'
   s.vendored_libraries = 'JMSmartMediaPlayer.framework/**/*.a'
   s.dependency 'JMMonitorView', '~> 1.0.8'
-  s.dependency 'JMSmartUtils', '~> 1.1.9'
+  s.dependency 'JMSmartUtils', '~> 1.2.0'
 
 end
 
