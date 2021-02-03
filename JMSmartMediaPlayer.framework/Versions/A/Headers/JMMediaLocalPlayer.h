@@ -32,7 +32,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取文件时长(毫秒)
 - (NSUInteger)getDuration;
 
-
 /// 是否支持本地播放
 - (BOOL)isSupport:(NSString * _Nonnull)filePath;
 

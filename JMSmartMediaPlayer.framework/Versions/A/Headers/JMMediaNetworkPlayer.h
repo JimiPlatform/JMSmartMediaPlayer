@@ -30,21 +30,35 @@ NS_ASSUME_NONNULL_BEGIN
 /// 释放显示视图
 - (void)deattachMonitor;
 
-/// 开始播放RTMP视频
+/// 开始播放RTMP、RTSP视频
 /// @param url RTMP链接
 - (BOOL)play:(NSString *)url;
 
+/// 停止播放
 - (BOOL)stop;
 
+/// 是否在播放
 - (BOOL)isPlaying;
 
+/// 开始录制
+/// @param fileName 沙盒MP4文件路径
 - (BOOL)startRecord:(NSString *)fileName;
 
+/// 停止录制
 - (BOOL)stopRecord;
 
+/// 是否在录制
 - (BOOL)isRecording;
 
+/// 录制时长
+- (NSInteger)getRecordingDuration;
+
+/// 截图
 - (UIImage *)snapshot;
+
+/// 是否开启音频降噪功能及级别
+/// @param level 级别：0~3，0表示关闭，默认3
+- (void)setDenoiseLevel:(NSInteger)level;
 
 @end
 
