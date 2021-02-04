@@ -50,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否在录制
 - (BOOL)isRecording;
 
-/// 录制时长
+/// 录制时长(毫秒)
 - (NSInteger)getRecordingDuration;
 
 /// 截图

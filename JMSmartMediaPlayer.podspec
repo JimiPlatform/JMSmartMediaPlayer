@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = "JMSmartMediaPlayer"
-  s.version = "1.1.6-beta1"
-  s.summary = "Jimi meida Player SDK for iOS at CocoaPods."
+  s.version = "1.1.6"
+  s.summary = "Jimi Meida Player SDK for iOS at CocoaPods."
   s.license = {"type"=>"Apache License 2.0", "file"=>"LICENSE"}
   s.authors = {"Eafy"=>"lizhijian_21@163.com"}
   s.homepage = "https://github.com/JimiPlatform/JMSmartMediaPlayer"
-  s.description = "Jimi meida Player SDK for iOS at CocoaPods."
+  s.description = "Jimi Meida Player SDK for iOS at CocoaPods."
   s.frameworks = ["CoreMedia", "VideoToolbox", "AudioToolbox"]
   s.libraries = ["c++", "z", "bz2", "iconv"]
   s.requires_arc = true
