@@ -25,7 +25,7 @@
 
 #define JM_MEDIA_ERR_RECORD_NO_PLAY -300      //没有开始播放或数据流
 #define JM_MEDIA_ERR_RECORD_INIT -301      //录制初始化失败
-#define JM_MEDIA_ERR_RECORD_RECORDING -301      //正在录制中
+#define JM_MEDIA_ERR_RECORD_RECORDING -302      //正在录制中
 
 //播放文件或类枚举枚举
 enum JM_MEDIA_PLAY_TYPE {

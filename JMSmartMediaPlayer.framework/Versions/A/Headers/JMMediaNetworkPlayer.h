@@ -30,7 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 释放显示视图
 - (void)deattachMonitor;
 
-/// 开始播放RTMP、RTSP视频
+/// 开始播放RTMP、RTSP、本地视频
 /// @param url RTMP链接
 - (BOOL)play:(NSString *)url;
 
@@ -59,6 +59,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否开启音频降噪功能及级别
 /// @param level 级别：0~3，0表示关闭，默认3
 - (void)setDenoiseLevel:(NSInteger)level;
+
+/// 设置最大延迟时间
+/// @param time 最大延迟时间
+- (void)setDelayMaxTime:(CGFloat)time;
 
 @end
 
