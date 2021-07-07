@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "JMSmartMediaPlayer"
-  s.version = "1.1.7-beta4"
+  s.version = "1.1.7-beta5"
   s.summary = "Jimi Meida Player SDK for iOS at CocoaPods."
   s.license = {"type"=>"Apache License 2.0", "file"=>"LICENSE"}
   s.authors = {"Jason"=>"lizhijian@jimilab.com"}
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
 end
 
 #打包命令
-#pod package JMSmartMediaPlayer.podspec --no-mangle --force --exclude-deps
+#pod lib lint JMSmartMediaPlayer.podspec --verbose --allow-warnings --use-libraries
 #发布命令
 #pod trunk push JMSmartMediaPlayer.podspec --verbose --allow-warnings --use-libraries
