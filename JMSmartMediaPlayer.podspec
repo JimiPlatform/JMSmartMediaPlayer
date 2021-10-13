@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "JMSmartMediaPlayer"
-  s.version = "1.1.8"
+  s.version = "1.1.9"
   s.summary = "Jimi Meida Player SDK for iOS at CocoaPods."
   s.license = {"type"=>"Apache License 2.0", "file"=>"LICENSE"}
   s.authors = {"Jason"=>"lizhijian@jimilab.com"}
