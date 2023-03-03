@@ -24,6 +24,7 @@ singleton_h();
 
 - (void)stopTalk;
 
+/// 是否处于对讲中
 - (BOOL)isTalking;
 
 @end
