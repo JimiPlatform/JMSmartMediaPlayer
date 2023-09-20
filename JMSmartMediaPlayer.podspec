@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "JMSmartMediaPlayer"
-  s.version = "1.2.0"
+  s.version = "1.2.3"
   s.summary = "Jimi Meida Player SDK for iOS at CocoaPods."
   s.license = {"type"=>"Apache License 2.0", "file"=>"LICENSE"}
   s.authors = {"Jason"=>"lizhijian@jimilab.com"}
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 arm64 x86_64 i386' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'armv7 arm64 x86_64 i386' }
 
-  s.ios.deployment_target    = '9.0'
+  s.ios.deployment_target    = '11.0'
   s.ios.vendored_framework   = 'JMSmartMediaPlayer.framework'
   s.vendored_libraries = 'JMSmartMediaPlayer.framework/**/*.a'
   s.dependency 'JMMonitorView', '~> 1.0.8'
