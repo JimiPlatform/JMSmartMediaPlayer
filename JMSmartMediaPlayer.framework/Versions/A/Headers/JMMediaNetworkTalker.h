@@ -21,6 +21,7 @@ singleton_h();
 @property (nonatomic,weak) id<JMMediaNetworkTalkerDelegate> _Nullable delegate;
 
 - (void)startTalk:(NSString *)url;
+- (void)startTalk:(NSString *)url sampleRate:(int)sampleRate;
 
 - (void)stopTalk;
 
