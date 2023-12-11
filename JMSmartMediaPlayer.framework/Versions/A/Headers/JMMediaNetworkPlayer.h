@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL mute;                 //静音设置
 @property (nonatomic,assign) BOOL sniffStreamEnable;    //是否完整探测流信息
 @property (nonatomic,copy) NSString *playUrl;    //RTMP链接地址
+@property (nonatomic,assign) BOOL isOpenAccBsf; //bfs是否开启过滤
 
 /// 加载显示视图
 /// @param monitor JMMonitor
