@@ -89,6 +89,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param playInfo 播放器信息对象
 - (void)didJMMediaNetworkPlayerPlayInfo:(JMMediaNetworkPlayer *_Nonnull)player playInfo:(JMMediaPlayInfo *)playInfo;
 
+/// 用于获取第一帧图片，拿到第一帧后，自行异步停止
+- (void)didJMMediaNetworkPlayerImage:(JMMediaNetworkPlayer *_Nonnull)player displayImage:(UIImage *)image;
+
 @end
 
 NS_ASSUME_NONNULL_END
