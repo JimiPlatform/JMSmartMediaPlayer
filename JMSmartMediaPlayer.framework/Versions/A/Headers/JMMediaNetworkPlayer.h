@@ -26,6 +26,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) BOOL isOpenAccBsf; //bfs是否开启过滤
 /// 录制时重新编码，默认NO
 @property (nonatomic,assign) BOOL recordReEncode;
+/// 录制视频超过一定范围需要除以的值，比如大于9999和 十万对比，这个值就要 100
+@property (nonatomic,assign) int dividedTimestampNum;
 
 /// 加载显示视图
 /// @param monitor JMMonitor
