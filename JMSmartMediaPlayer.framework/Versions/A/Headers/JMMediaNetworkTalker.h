@@ -19,9 +19,12 @@ NS_ASSUME_NONNULL_BEGIN
 singleton_h();
 
 @property (nonatomic,weak) id<JMMediaNetworkTalkerDelegate> _Nullable delegate;
+/// 麦克风静音
+@property (nonatomic,assign) BOOL microphoneMute;
 
 - (void)startTalk:(NSString *)url;
 - (void)startTalk:(NSString *)url sampleRate:(int)sampleRate;
+- (void)startTalk:(NSString *)url sampleRate:(int)sampleRate audioCodec:(int)audioCodec;
 
 - (void)stopTalk;
 

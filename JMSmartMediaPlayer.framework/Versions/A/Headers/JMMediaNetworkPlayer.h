@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic,weak) id<JMMediaNetworkPlayerDelegate> _Nullable delegate;
 @property (nonatomic,assign) BOOL mute;                 //静音设置
+@property (nonatomic,assign) BOOL standSleep;           //是否强制睡眠标准时长
 @property (nonatomic,assign) BOOL sniffStreamEnable;    //是否完整探测流信息
 @property (nonatomic,copy) NSString *playUrl;    //RTMP链接地址
 @property (nonatomic,assign) BOOL isOpenAccBsf; //bfs是否开启过滤

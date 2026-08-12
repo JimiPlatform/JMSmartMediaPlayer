@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,assign) NSInteger audioBps;        //音频码率(s/Bps)
 @property (nonatomic,assign) NSInteger timestamp;       //时间戳
 @property (nonatomic,assign) NSInteger onlineCount;     //在线人数
+@property (nonatomic,assign) NSInteger videocodec;           //视频编码
+@property (nonatomic,assign) NSInteger audiocodec;           //音频编码
+@property (nonatomic,assign) Boolean isSoftDecode;          //是否软解
 
 @end
 
