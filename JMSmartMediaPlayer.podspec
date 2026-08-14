@@ -22,5 +22,7 @@ end
 
 #打包命令
 #pod lib lint JMSmartMediaPlayer.podspec --verbose --allow-warnings --use-libraries
+
 #发布命令
-#pod trunk push JMSmartMediaPlayer.podspec --verbose --allow-warnings --use-libraries
+#（--skip-import-validation 会跳过当前 Xcode 模拟器的链接校验，避免 arm64 静态库被以 x86_64 模拟器架构链接时报错。--skip-tests 一并跳过测试构建）
+#pod trunk push JMSmartMediaPlayer.podspec --verbose --allow-warnings --use-libraries --skip-import-validation --skip-tests
